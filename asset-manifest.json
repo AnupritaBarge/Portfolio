@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/AnupritaBarge/Portfolio.git/static/css/main.f69b4b6e.css",
+    "main.js": "/AnupritaBarge/Portfolio.git/static/js/main.4e08ca9f.js",
+    "static/media/DLMode.mp4": "/AnupritaBarge/Portfolio.git/static/media/DLMode.34b813d86e08d849131c.mp4",
+    "static/media/AboutUs.jpg": "/AnupritaBarge/Portfolio.git/static/media/AboutUs.74917ff6fdb63b9053d7.jpg",
+    "static/media/Collection.jpg": "/AnupritaBarge/Portfolio.git/static/media/Collection.aefe9cac2e6589991e47.jpg",
+    "static/media/ShimmerHomePage.jpg": "/AnupritaBarge/Portfolio.git/static/media/ShimmerHomePage.284348e9599d968f281b.jpg",
+    "static/media/JL.jpg": "/AnupritaBarge/Portfolio.git/static/media/JL.2eebbde727de9ae32316.jpg",
+    "static/media/Footer.jpg": "/AnupritaBarge/Portfolio.git/static/media/Footer.db38986ddedff22444b9.jpg",
+    "static/media/Resume.pdf": "/AnupritaBarge/Portfolio.git/static/media/Resume.4663903f9ee1a57f6101.pdf",
+    "static/media/reviews.jpg": "/AnupritaBarge/Portfolio.git/static/media/reviews.4a36062f4eefa67a310b.jpg",
+    "static/media/DarkMode.png": "/AnupritaBarge/Portfolio.git/static/media/DarkMode.52f02e8b4e349938bc87.png",
+    "static/media/LightMode.jpg": "/AnupritaBarge/Portfolio.git/static/media/LightMode.9d86de3895b3569da9ed.jpg",
+    "index.html": "/AnupritaBarge/Portfolio.git/index.html",
+    "main.f69b4b6e.css.map": "/AnupritaBarge/Portfolio.git/static/css/main.f69b4b6e.css.map",
+    "main.4e08ca9f.js.map": "/AnupritaBarge/Portfolio.git/static/js/main.4e08ca9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f69b4b6e.css",
+    "static/js/main.4e08ca9f.js"
+  ]
+}
