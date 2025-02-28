@@ -17,13 +17,20 @@ export default function Homepage() {
   function ShimmerJewels(){
     navigate('/shimmer');
   }
+
+  function GoToResume(){
+    navigate('/resume')
+  }
+
   return (    
     <div class = "flex flex-col flex-grow min-h-screen w-screen bg-slate-200">
         <div class = "flex flex-row h-28 w-screen ">
           <p class = "text-6xl m-10 font-semibold">A.</p>
           <div class = "flex ml-auto mr-36 items-center space-x-6 text-xl">
-            <a href="/home">Home</a>
-            <a href="/resume">Resume</a>            
+            <p>Home</p>
+            <p
+              onClick={GoToResume}>Resume
+            </p>            
             
           </div>
         </div>

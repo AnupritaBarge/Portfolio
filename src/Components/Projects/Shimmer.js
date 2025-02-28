@@ -4,20 +4,29 @@ import collection from '../../Assets/Jewellary/Collection.jpg'
 import aboutus from '../../Assets/Jewellary/AboutUs.jpg'
 import footer from '../../Assets/Jewellary/Footer.jpg'
 import reviewspg from '../../Assets/Jewellary/reviews.jpg'
+import { useNavigate } from 'react-router-dom'
 
 export default function Shimmer() {
+  const navigate = useNavigate();
+
+    function returnHome(){
+        navigate('/home');
+    }
+
+    function GoToResume(){
+        navigate('/resume')
+    }
+
   return (
     <div class= "flex flex-col flex-grow min-h-screen w-screen bg-slate-200">
       <div class = "flex flex-row h-28 w-screen ">
-          <p class = "text-6xl m-10 font-semibold">
-            <a href='/home'>
-              A.
-            </a>
+          <p class = "text-6xl m-10 font-semibold">            
+            <p onClick={returnHome}>A.</p>
           </p>
 
           <div class = "flex ml-auto mr-36 items-center space-x-6 text-xl">
-            <a href="/home">Home</a>
-            <a href="/resume">Resume</a>           
+          <p onClick={returnHome}>Home</p>
+          <p onClick={GoToResume}>Resume</p>           
           </div>
       </div>        
 

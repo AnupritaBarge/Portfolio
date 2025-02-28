@@ -2,8 +2,20 @@ import React from 'react'
 import LM from '../../Assets/ToggleSwitch/LightMode.jpg'
 import DM from '../../Assets/ToggleSwitch/DarkMode.png'
 import DLrec from '../../Assets/ToggleSwitch/DLMode.mp4'
+import { useNavigate } from 'react-router-dom'
 
 export default function ToggleButton() {
+    
+    const navigate = useNavigate();
+
+    function returnHome(){
+        navigate('/home');
+    }
+
+    function GoToResume(){
+        navigate('/resume')
+    }
+
   return (
     <div class= "flex flex-col flex-grow min-h-screen w-screen bg-slate-200">
         <div class = "flex flex-row h-28 w-screen ">
@@ -13,8 +25,9 @@ export default function ToggleButton() {
             </a>
           </p>
           <div class = "flex ml-auto mr-36 items-center space-x-6 text-xl">
-            <a href="/home">Home</a>
-            <a href="/resume">Resume</a>           
+            <p onClick={returnHome}>Home</p>
+            <p onClick={GoToResume}>Resume</p>
+                       
             </div>
         </div>      
       
