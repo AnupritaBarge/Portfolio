@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Homepage from './Components/Homepage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Resume from './Components/Resume';
+import ToggleButton from './Components/Projects/ToggleButton';
+import Shimmer from './Components/Projects/Shimmer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path = '/home' element={<Homepage/>}/>
+        <Route path='/resume' element={<Resume/>}/>
+        <Route path = '/toggle' element = {<ToggleButton/>}/>
+        <Route path = '/shimmer' element = {<Shimmer/>}/>
+
+        {/* default route */}
+        <Route path='*' element = {<Homepage/>}/>
+      </Routes>
+    </Router>
   );
 }
 
