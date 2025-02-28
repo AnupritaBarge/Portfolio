@@ -20,9 +20,7 @@ export default function ToggleButton() {
     <div class= "flex flex-col flex-grow min-h-screen w-screen bg-slate-200">
         <div class = "flex flex-row h-28 w-screen ">
           <p class = "text-6xl m-10 font-semibold">
-            <a href='/home'>
-              A.
-            </a>
+            <p onClick={returnHome}>A.</p>
           </p>
           <div class = "flex ml-auto mr-36 items-center space-x-6 text-xl">
             <p onClick={returnHome}>Home</p>
