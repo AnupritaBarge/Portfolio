@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f69b4b6e.css",
-    "main.js": "/Portfolio/static/js/main.88ad3d1e.js",
-    "static/media/DLMode.mp4": "/Portfolio/static/media/DLMode.34b813d86e08d849131c.mp4",
-    "static/media/AboutUs.jpg": "/Portfolio/static/media/AboutUs.74917ff6fdb63b9053d7.jpg",
-    "static/media/Collection.jpg": "/Portfolio/static/media/Collection.aefe9cac2e6589991e47.jpg",
-    "static/media/ShimmerHomePage.jpg": "/Portfolio/static/media/ShimmerHomePage.284348e9599d968f281b.jpg",
-    "static/media/JL.jpg": "/Portfolio/static/media/JL.2eebbde727de9ae32316.jpg",
-    "static/media/Footer.jpg": "/Portfolio/static/media/Footer.db38986ddedff22444b9.jpg",
-    "static/media/Resume.pdf": "/Portfolio/static/media/Resume.4663903f9ee1a57f6101.pdf",
-    "static/media/reviews.jpg": "/Portfolio/static/media/reviews.4a36062f4eefa67a310b.jpg",
-    "static/media/DarkMode.png": "/Portfolio/static/media/DarkMode.52f02e8b4e349938bc87.png",
-    "static/media/LightMode.jpg": "/Portfolio/static/media/LightMode.9d86de3895b3569da9ed.jpg",
-    "index.html": "/Portfolio/index.html",
-    "main.f69b4b6e.css.map": "/Portfolio/static/css/main.f69b4b6e.css.map",
-    "main.88ad3d1e.js.map": "/Portfolio/static/js/main.88ad3d1e.js.map"
+    "main.css": "/home/static/css/main.f69b4b6e.css",
+    "main.js": "/home/static/js/main.dd274f11.js",
+    "static/media/DLMode.mp4": "/home/static/media/DLMode.34b813d86e08d849131c.mp4",
+    "static/media/AboutUs.jpg": "/home/static/media/AboutUs.74917ff6fdb63b9053d7.jpg",
+    "static/media/Collection.jpg": "/home/static/media/Collection.aefe9cac2e6589991e47.jpg",
+    "static/media/ShimmerHomePage.jpg": "/home/static/media/ShimmerHomePage.284348e9599d968f281b.jpg",
+    "static/media/JL.jpg": "/home/static/media/JL.2eebbde727de9ae32316.jpg",
+    "static/media/Footer.jpg": "/home/static/media/Footer.db38986ddedff22444b9.jpg",
+    "static/media/Resume.pdf": "/home/static/media/Resume.4663903f9ee1a57f6101.pdf",
+    "static/media/reviews.jpg": "/home/static/media/reviews.4a36062f4eefa67a310b.jpg",
+    "static/media/DarkMode.png": "/home/static/media/DarkMode.52f02e8b4e349938bc87.png",
+    "static/media/LightMode.jpg": "/home/static/media/LightMode.9d86de3895b3569da9ed.jpg",
+    "index.html": "/home/index.html",
+    "main.f69b4b6e.css.map": "/home/static/css/main.f69b4b6e.css.map",
+    "main.dd274f11.js.map": "/home/static/js/main.dd274f11.js.map"
   },
   "entrypoints": [
     "static/css/main.f69b4b6e.css",
-    "static/js/main.88ad3d1e.js"
+    "static/js/main.dd274f11.js"
   ]
 }
